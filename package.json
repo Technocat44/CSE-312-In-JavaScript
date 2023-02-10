@@ -1,0 +1,28 @@
+{
+  "name": "cse-312-in-javascript",
+  "version": "1.0.0",
+  "description": "CSE 312 Project but in Javascript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test":"jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Technocat44/CSE-312-In-JavaScript.git"
+  },
+  "author": "James Aquilina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Technocat44/CSE-312-In-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Technocat44/CSE-312-In-JavaScript#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "jest": "^29.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
